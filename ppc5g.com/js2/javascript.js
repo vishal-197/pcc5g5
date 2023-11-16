@@ -31,12 +31,11 @@ openModalBtns.forEach((button) => {
     const modalTarget = button.getAttribute("data-modal-target");
     if (modalTarget === "modal1") {
       modalTitle.innerText = "";
-      modalContent.innerHTML = test;
-    } else if (modalTarget === "testmodal") {
+      modalContent.innerHTML = whyus;
+    }else if (modalTarget === "modatestmodall2") {
       modalTitle.innerText = "";
      modalContent.innerHTML = test;
-   } 
-    else if (modalTarget === "modal2") {
+    }else if (modalTarget === "modal2") {
        modalTitle.innerText = "";
       modalContent.innerHTML = audit;
     } else if (modalTarget === "modal3") {
