@@ -640,6 +640,10 @@ animation-delay: 0.2s; transition: transform 0.5s ease; -webkit-transition: tran
 .homepageactive ul>li:nth-child(1) a,.ppcactive ul>li:nth-child(2) a,.landingactive ul li:nth-child(3) a,.websiteactive ul li:nth-child(4) a,.aboutactive ul li:nth-child(5) ul li:nth-child(1) a,.directoractive ul li:nth-child(5) ul li:nth-child(2) a,.legalactive ul li:nth-child(6) a,.privacyactive ul li:nth-child(7) a{background:#5eb69d ;}
 .homepageactive ul li ul li a,.ppcactive ul li ul li a{background: transparent !important;}
 
+
+.swiper-slide.swiper-slide-thumb-active.swiper-slide-visible {
+  border: solid 2px red;
+}
 @media only screen and (min-width:1024px) and (max-width:1120px){
   #myTabContent ul li{width: 23.67%;}
   .ui-tabs-vertical .ui-tabs-panel{width: 46em;}
@@ -855,6 +859,9 @@ header ul li a {
 .fixed_scroll{height: 76vh;}
 
 #reviewten{padding-bottom: 0;}
+
+
+
 }
 @media only screen and (max-width:511px){
   .menu ul.firstmenu{width: 262px;    margin-left: 10px;}
