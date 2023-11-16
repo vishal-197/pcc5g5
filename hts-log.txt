@@ -1,0 +1,15 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 16 Nov 2023 17:26:44 at https://ppc5g.com/ppc-services.php +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://ppc5g.com/ppc-services.php -O1 "C:\Users\Vishal\Desktop\pcc" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+17:27:04	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://ppc5g.com/ppc-services.php)
+17:28:20	Error: 	"Not Found" (404) at link https://ppc5g.com/Version/ (from https://ppc5g.com/js/swiper-bundle.min.js)
+17:28:20	Error: 	"Not Found" (404) at link https://ppc5g.com/e (from https://ppc5g.com/js/swiper-bundle.min.js)
+17:28:20	Error: 	"Not Found" (404) at link https://ppc5g.com/t.params.url (from https://ppc5g.com/js/swiper-bundle.min.js)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 36 seconds : 273 links scanned, 268 files written (9391463 bytes overall) [6301057 bytes received at 65636 bytes/sec], 4697349 bytes transferred using HTTP compression in 181 files, ratio 31%, 13.0 requests per connection
+(4 errors, 0 warnings, 0 messages)
